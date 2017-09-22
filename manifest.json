@@ -1,0 +1,19 @@
+{
+  "manifest_version":2,
+  "name":"AshishkrGoyal",
+  "description":"extension for https://ashishkrgoyal.me",
+  "version":"1.0",
+  "browser_action":
+  {
+    "default_icon":"ashish.png",
+    "default_popup":"index.html"
+  },
+
+  "permissions":["http://*.google.com/",
+                "https://*.google.com/"],
+
+  "icons":
+  {
+    "64":"ashish.png"
+  }
+  }
