@@ -15,5 +15,14 @@
   "icons":
   {
     "64":"ashish.png"
-  }
-  }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
