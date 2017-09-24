@@ -2,7 +2,7 @@
   "manifest_version":2,
   "name":"AshishkrGoyal",
   "description":"extension for https://ashishkrgoyal.me",
-  "version":"1.0",
+  "version":"1.0.0",
   "browser_action":
   {
     "default_icon":"ashish.png",
@@ -19,13 +19,13 @@
   "background": {
     "scripts": ["background.js"]
   },
+  "chrome_url_overrides":{
+    "newtab":"newtab.html"
+  },
   "content_scripts": [
     {
       "matches": ["http://*/*","https://*/*"],
       "js": ["script.js"]
     }
-  ],
-  "permissions":[
-    "<all_urls>"
   ]
 }
