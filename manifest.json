@@ -17,7 +17,8 @@
     "64":"ashish.png"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistant":false
   },
   "chrome_url_overrides":{
     "newtab":"newtab.html"
