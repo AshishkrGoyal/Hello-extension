@@ -24,5 +24,8 @@
       "matches": ["http://*/*","https://*/*"],
       "js": ["script.js"]
     }
+  ],
+  "permissions":[
+    "<all_urls>"
   ]
 }
